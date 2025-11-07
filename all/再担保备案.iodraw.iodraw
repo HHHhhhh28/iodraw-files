@@ -55,6 +55,57 @@
         <mxCell id="0TsguvlWLNSnZc1jHkJB-14" value="dto转po后更新H_Y_REGUARANTEE_RECORD表&lt;div&gt;同时更改FIXFLOW_RUN_PROCESSINSTANCE表的endtime为当前时间&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="610" width="220" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="vNUpLWpYKgMWVyfiPzoI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vNUpLWpYKgMWVyfiPzoI-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vNUpLWpYKgMWVyfiPzoI-2" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vNUpLWpYKgMWVyfiPzoI-1">
+          <mxGeometry x="0.0719" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vNUpLWpYKgMWVyfiPzoI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vNUpLWpYKgMWVyfiPzoI-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vNUpLWpYKgMWVyfiPzoI-4" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vNUpLWpYKgMWVyfiPzoI-3">
+          <mxGeometry x="-0.149" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vNUpLWpYKgMWVyfiPzoI-5" value="任务每天触发检查是否有loanDate+50是今天的" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vNUpLWpYKgMWVyfiPzoI-6" value="结束&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vNUpLWpYKgMWVyfiPzoI-7" value="插入FIXFLOW_RUN_PROCESSINSTANCE&lt;div&gt;表、FIXFLOW_RUN_TASKINSTANCE表和H_Y_REGUARANTEE_RECORD表&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="730" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vNUpLWpYKgMWVyfiPzoI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vNUpLWpYKgMWVyfiPzoI-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vNUpLWpYKgMWVyfiPzoI-9" value="点击保存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vNUpLWpYKgMWVyfiPzoI-10" value="dto转po后更新H_Y_REGUARANTEE_RECORD表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="870" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vNUpLWpYKgMWVyfiPzoI-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vNUpLWpYKgMWVyfiPzoI-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vNUpLWpYKgMWVyfiPzoI-12" value="点击提交" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vNUpLWpYKgMWVyfiPzoI-13" value="dto转po后更新H_Y_REGUARANTEE_RECORD表&lt;div&gt;同时更改FIXFLOW_RUN_PROCESSINSTANCE表的endtime为当前时间&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1190" width="220" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
